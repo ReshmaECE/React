@@ -1,0 +1,166 @@
+
+ *{
+   /* background-color:#19A7CE; */
+   font-family: 'Roboto', sons-serif;
+   
+} 
+/* B0DAFF */
+
+
+
+.form-container{
+    display:flex;
+  justify-content: center;
+  flex-direction:column;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  border:10px solid gold;
+  background-color:#19A7CE;
+  border-radius: 25px;
+  font-size: 25px;
+  height:auto;
+  width: 60%;
+  text-align: center;
+  font-size: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+input[type=text] {
+    width: 50%;
+    border-radius: 25px;
+    padding:5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    
+  }
+
+  input[type=email]{
+    width: 50%;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+  input[type=tel]{
+    width: 50%;
+    border-radius: 25px;
+    padding:5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+  input[type=date]{
+    width: 50%;
+    border-radius: 25px;
+    padding:5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+  
+  
+  button[type=submit]{
+    width: 50%;
+    border-radius: 25px;
+    padding:5px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    background-color: green;
+    font-size: 30px;
+    border:1px solid gold;
+  }
+ 
+  input:focus {
+    background: gold;
+  }
+  input:active {
+    background: lightgreen;
+  }
+  .table,th ,td{
+    border: 1px solid;
+    
+
+    
+  }
+  table {
+    border-collapse: collapse;
+    width:50%;
+    /* font-size: 30px; */
+   
+    margin-left: auto;
+ margin-right: auto;
+  
+
+  }
+  tr:nth-child(even){background-color:#FEA1A1}
+
+  
+  th {
+    height: 20px;
+    
+  }
+   td{
+    border-collapse: collapse;
+    font-size: 25px;
+    
+   }
+
+   .delete{
+    
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color:#ED2B2A ;
+   }
+
+
+   #ti{
+  background-color:#65bbd3 ;
+  width:200px;
+  padding: 10px;
+}
+   
+#ti1{
+  background-color: #65bbd3;
+  width:200px;
+  padding: 10px;
+}
+    
+#ti2{
+  background-color:#65bbd3 ;
+  width:200px;
+  padding: 10px;
+}
+#ti3{
+  background-color:#65bbd3 ;
+  width:200px;
+  padding: 10px;
+}
+   
+#ti4{
+  background-color:#65bbd3 ;
+  width:200px;
+  padding: 10px;
+}
+  
+.update{
+      border-radius: 12px;
+      padding: 5px;
+      box-sizing: border-box;
+      font-size: 20px;
+      background-color:rgb(145, 145, 218) ;
+    }
+.button2{
+      border-radius: 12px;
+      padding: 5px;
+      box-sizing: border-box;
+      font-size: 20px;
+      background-color:rgb(192, 25, 25) ;
+    }

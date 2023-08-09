@@ -1,0 +1,22 @@
+body{
+    /* background-color: rgb(141, 174, 204); */
+    font-size: 20px;
+}
+
+.container{
+    color: rgb(71, 71, 139);
+    
+}
+p{
+ color: rgb(7, 52, 94);
+}
+
+.para{
+    color: blueviolet;
+     background-color: rgb(151, 179, 169); 
+}
+
+
+.font-Xl{
+    font-size: 100px;
+}
